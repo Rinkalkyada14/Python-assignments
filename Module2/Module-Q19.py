@@ -3,9 +3,8 @@
 
 s = "Write a python program to find"
 s1 = s[:2:1] + s[28:]
-#print(s1)
 
-if len(s1) < 2:
-    s1 = s[:2:1] + s[28:]
-    print(s1)
+if len(s1) > 2:
+      print(s1)
+
 
